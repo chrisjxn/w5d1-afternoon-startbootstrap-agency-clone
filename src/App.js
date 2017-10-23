@@ -1,3 +1,5 @@
+// Did not attempt to clone site. When I have time, check out the code for the site I was going to clone and follow these patterns. Decided to focus first on functionality and second on styling. Blackrock has good examples of sites to fork, clone and view their code (HTML and CSS and file structure/organization). See https://github.com/BlackrockDigital, esp. 
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -6,13 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        See App.js line 1...
       </div>
     );
   }
